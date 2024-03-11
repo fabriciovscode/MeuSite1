@@ -1,0 +1,50 @@
+/* Adicione estilos personalizados aqui */
+
+body {
+    background-color: #f8f9fa; /* Cor de fundo geral */
+    color: #343a40; /* Cor principal do texto */
+    font-family: 'Arial', sans-serif; /* Escolha a fonte desejada */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1, h2, h3 {
+    color: #007bff; /* Cor para os títulos principais */
+}
+
+/* Estilo para a tabela de jogos */
+.table th, .table td {
+    text-align: center;
+}
+
+/* Cores alternadas para as linhas da tabela */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Cores específicas para cada equipe */
+.lakers {
+    background-color: #8d5690; /* Roxo para Los Angeles Lakers */
+    color: #ffffff; /* Texto branco para contrastar */
+}
+
+.nets {
+    background-color: #000000; /* Preto para Brooklyn Nets */
+    color: #ffffff; /* Texto branco para contrastar */
+}
+
+.warriors {
+    background-color: #1d428a; /* Azul para Golden State Warriors */
+    color: #ffffff; /* Texto branco para contrastar */
+}
+
+/* Estilo adicional para a tabela */
+.table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave na tabela */
+    border-radius: 8px; /* Borda arredondada */
+    overflow: hidden; /* Esconde a sombra que ultrapassa a borda */
+    margin-top: 20px;
+}
+
